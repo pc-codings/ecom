@@ -12,7 +12,7 @@ const NewletterBox = () => {
        <p className='text-2xl font-medium text-gray-700'>Subscribe now & get 20% off</p>
 
        <p className='text-gray-400 mt-3 '>
-           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda 
+  Join our fashion tribe and be the first to know about new arrivals, exclusive deals, and style tips — plus enjoy 20% off your first order!
        </p>
 
        <form onSubmit={handleSubmite} className='w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border pl-3'>
