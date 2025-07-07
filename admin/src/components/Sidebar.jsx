@@ -21,9 +21,14 @@ const Sidebar = () => {
                <p className='hidden md:block'>Order Items</p>
             </NavLink>
 
-              <NavLink className="flex items-center gap-3 border border-gray-300 border-r-0 py-2 rounded-l" to="/orders">
+              <NavLink className="flex items-center gap-3 border border-gray-300 border-r-0 py-2 rounded-l" to="/">
                <img className='w-5 h-5' src={assets.order_icon} alt="" />
                <p className='hidden md:block'>Setting</p>
+            </NavLink>
+
+            <NavLink className="flex items-center gap-3 border border-gray-300 border-r-0 py-2 rounded-l" to="/userData">
+               <img className='w-5 h-5' src={assets.order_icon} alt="" />
+               <p className='hidden md:block'>User List</p>
             </NavLink>
         </div>
     </div>

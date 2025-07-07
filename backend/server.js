@@ -7,6 +7,7 @@ import router from "./routes/userRoute.js";
 import productRouter from "./routes/productRoute.js";
 import cartRouter from "./routes/cartRoute.js";
 import orderRouter from "./routes/orderRoute.js";
+import userListRoute from "./routes/userListRoute.js";
 
 // App Config
 const app=express();
@@ -25,6 +26,7 @@ connectCloudinary();
  app.use("/api/product",productRouter)
  app.use("/api/cart",cartRouter)
  app.use("/api/order",orderRouter)
+ app.use("/api/userlist",userListRoute)
 app.get("/",(req,res)=>{
 
       res.json({

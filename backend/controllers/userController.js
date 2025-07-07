@@ -151,6 +151,7 @@ const userController={
         {
           const {email,password}=req.body;
            console.log(req.body);
+           console.log("hello")
 
            console.log(process.env.ADMIN_EMAIL,process.env.ADMIN_PASSWORD);
            
